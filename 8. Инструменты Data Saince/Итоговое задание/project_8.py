@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def random_predict(number: int = 1) -> int:
+def random_predict(number: int=1) -> int:
     """Рандомно угадываем число
 
     Args:
@@ -10,8 +10,8 @@ def random_predict(number: int = 1) -> int:
     Returns:
         int: Число попыток
     """
-    count = 0 # количество попыток
-    predict_number = np.random.randint(0, 101)  # предполагаемое число
+    count = 0 # Количество попыток
+    predict_number = np.random.randint(0, 101)  # Предполагаемое число
     while True:
         count += 1
         if number == predict_number:
@@ -24,7 +24,8 @@ def random_predict(number: int = 1) -> int:
 
 
 def score_game(random_predict) -> int:
-    """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
+    """За какое количство попыток в среднем за 1000 подходов угадывает 
+    наш алгоритм
 
     Args:
         random_predict ([type]): функция угадывания
@@ -32,14 +33,15 @@ def score_game(random_predict) -> int:
     Returns:
         int: среднее количество попыток
     """
-    count_ls = [] # список для сохранения количества попыток
-    np.random.seed(1)  # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
+    count_ls = [] # Список для сохранения количества попыток
+    np.random.seed(1)  # Фиксируем сид для воспроизводимости
+    random_array = np.random.randint(1, 101, size=(1000)) 
+    # Загадали список чисел
 
-    for number in random_array: #запускаем цикл for 1000 раз
-        count_ls.append(random_predict(number)) #добавляем кол-во попыток в список
+    for number in random_array:
+        count_ls.append(random_predict(number)) 
 
-    score = int(np.mean(count_ls)) # находим среднее количество попыток
+    score = int(np.mean(count_ls)) # Находим среднее количество попыток
     print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
     return score
 
