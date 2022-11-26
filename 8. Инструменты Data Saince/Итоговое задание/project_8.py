@@ -11,7 +11,7 @@ def random_predict(number: int = 1) -> int:
         int: Число попыток
     """
     count = 0 # количество попыток
-    predict_number = np.random.randint(1, 101)  # предполагаемое число
+    predict_number = np.random.randint(0, 101)  # предполагаемое число
     while True:
         count += 1
         if number == predict_number:
