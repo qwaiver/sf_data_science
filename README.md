@@ -2,7 +2,7 @@
 
 From the [SkillFactory Data Science course](https://skillfactory.ru/data-science-specialization)
 
-## Homework's
-* [Homework 1. Игра: ПК угадывает число](https://github.com/qwaiver/sf_data_science/tree/main/8.%20Инструменты%20Data%20Saince/project_0)
+## Homeworks
+* [Homework 1. Игра: Программа угадывает число](https://github.com/qwaiver/sf_data_science/tree/main/8.%20Инструменты%20Data%20Saince/Итоговое%20задание)
 * [Homework 2. Pass]()
 * [Homework 3. Pass]()
