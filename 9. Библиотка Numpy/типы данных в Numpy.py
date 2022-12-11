@@ -9,4 +9,4 @@ print(*sorted(map(str, set(np.sctypeDict.values()))), sep='\n')
 # Datetime и timedelta используются для хранения времени, 
 # complex используется для работы с комплéксными числами.
 
-print(np.uint8(-456))
+print(np.iinfo(np.int16))
