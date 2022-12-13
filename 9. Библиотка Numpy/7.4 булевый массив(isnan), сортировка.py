@@ -15,6 +15,7 @@ def nan(nans_index):
             c += 1
     return c
 n_nan = nan(nans_index)
+#n_nan = sum(nans_index)
 #В переменную n_nan сохраните число пропущенных значений
 
 mystery_new = mystery
@@ -22,7 +23,7 @@ mystery_new[np.isnan(mystery_new)] = 0
 #Скопируйте массив mystery в массив mystery_new. Заполните пропущенные значения 
 # в массиве mystery_new нулями
 
-mystery_int = np.int16(mystery)
+mystery_int = np.int32(mystery)
 #Поменяйте тип данных в массиве mystery на int32 и сохраните в переменную mystery_int
 
 array = np.sort(mystery)

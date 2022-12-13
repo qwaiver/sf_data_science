@@ -26,6 +26,7 @@ part = mystery[1:4 , 2:5]
 
 rev2 = mystery[:,-1]
 rev = rev2[::-1]
+#rev = mystery[::-1, -1]
 #Сохраните в переменную rev последний столбец в обратном порядке
 
 trans = mystery.transpose()

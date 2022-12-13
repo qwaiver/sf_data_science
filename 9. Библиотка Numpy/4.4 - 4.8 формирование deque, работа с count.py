@@ -21,6 +21,9 @@ for i in south:
 for i in north:
     mn_n.extend(i)
     
+#north_list = [elem for bill in north for elem in bill]
+#south_list = [elem for bill in south for elem in bill]
+#center_list = [elem for bill in center for elem in bill]
 
 ''' решение без дек
 for i in center:
@@ -52,7 +55,8 @@ count_c = Counter(mn_c)
 count_s = Counter(mn_s)
 count_n = Counter(mn_n)
 print('4.4 Сколько раз покупали самый редкий товар в магазине north?')
-print(count_n) # 'Cheese': 10
+#print(count_n) # 'Cheese': 10/ отображает весь список
+print(count_n.most_common()[-1]) #отображает последний товар в списке
 print('')
 
 #4.6 
@@ -72,5 +76,6 @@ print('')
 #4.8
 #Определите суммарное число продаж каждого товара во всех магазинах, сложив все объекты-счётчики. 
 # Сколько раз был куплен второй по популярности товар? Запишите ответ в числовой форме.
-print(count_c + count_n + count_s)
+#print(count_c + count_n + count_s) #выводит весь список
+print((count_c + count_n + count_s).most_common()[2]) # выводит товар из условия
 #Counter({'Beer': 257, 'Bread': 240, 'Cola': 236, 'Chips': 128, 'Meat': 121, 'Milk': 111, 'Chocolate': 107, 'Yoghurt': 90, 'Soap': 80, 'Cheese': 79, 'Ketchup': 77})

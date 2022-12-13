@@ -14,6 +14,15 @@ def min_max_dist(*args):
     min_max = (np.min(lin), np.max(lin))        
     print(min_max)
         
+'''
+def min_max_dist(*vectors):
+    dists = list()
+    for i in range(len(vectors)):
+        for j in range(i + 1, len(vectors)):
+            dists.append(np.linalg.norm(vectors[i] - vectors[j]))
+    return (min(dists), max(dists))
+    '''
+    
 vec1 = np.array([1,2,3])
 vec2 = np.array([4,5,6])
 vec3 = np.array([7, 8, 9])
