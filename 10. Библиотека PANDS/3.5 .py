@@ -46,4 +46,4 @@ def get_profit(df, year):
         return None
     return profit
     
-print(get_profit(year = 2018, df = [create_companyDF([612, 516, 329, 158], [136,163,250,361], [2017,2018,2019,2020])]))
+print(get_profit(years = 2019, df = create_companyDF([612, 516, 329, 158], [136,163,250,361], [2017,2018,2019,2020])))

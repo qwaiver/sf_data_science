@@ -6,4 +6,5 @@ countries_df = pd.DataFrame({
     'square': [133396, 9984670, 9826630, 17125191, 603628, 207600, 2724902]
 })
 
-countries_df.to_csv('data/countries.csv', index=False, sep=';')
+countries_df.to_csv('countries.csv', index=False, sep=';')
+#не работает с data\countries.csv
