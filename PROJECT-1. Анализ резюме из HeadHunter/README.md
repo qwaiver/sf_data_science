@@ -6,7 +6,7 @@ Project 1. Resume analysis with hh
 skillfactory_dst
 
 Python *version*
-<img src="https://cdn-icons-png.flaticon.com/512/2535/2535543.png" alt="drawing" width="50"/>
+<img src="https://cdn-icons-png.flaticon.com/512/2535/2535543.png" alt="drawing" width="15"/>
 
 Оглавление
 -----------
