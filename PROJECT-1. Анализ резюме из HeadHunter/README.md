@@ -40,6 +40,6 @@ Python *version*
 [id]: https://drive.google.com/file/d/1ZfRqfBCXXHaHos-est0s9roO-OtVLzee/view?usp=sharing
 [База данных резюме hh.ru][id] 
 
-[id2]: https://drive.google.com/file/d/1ZfRqfBCXXHaHos-est0s9roO-OtVLzee/view?usp=sharing
+[id2]: https://github.com/qwaiver/sf_data_science/tree/main/PROJECT-1.%20Анализ%20резюме%20из%20HeadHunter/graph
 [Plotly графики в HTML][id2] 
-<a name="tre"></a>
+<a name="four"></a>
