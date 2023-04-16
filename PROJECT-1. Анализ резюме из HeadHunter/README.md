@@ -34,7 +34,7 @@ Python *3.11.0*
 Проанализировали отношения между возрастом, уровнем желаемой ЗП, графиком работы и прочее. Нашли аномалии в значениях.
 Очистили базу данных от пустых значений и выбросов.
 
->>[SkillFactiry](https://skillfactory.ru/courses/data-science "SFDST")
+>>[SkillFactory](https://skillfactory.ru/courses/data-science "SFDST")
 
 
 [id]: https://drive.google.com/file/d/1ZfRqfBCXXHaHos-est0s9roO-OtVLzee/view?usp=sharing
