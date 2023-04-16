@@ -5,6 +5,7 @@ skillfactory_dst
 
 Python *3.11.0*
 <img src="https://user-images.githubusercontent.com/11718525/197611877-583a0bb2-a8fb-4275-8827-39f2f06ade6c.png" alt="drawing" width="20"/>
+
 PostgreSQL *11.3*
 
 Оглавление
