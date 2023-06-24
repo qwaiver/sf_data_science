@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# files
+PROJECT-3. EDA + Feature Engineering. Соревнование на Kaggle/data/hotels.csv
