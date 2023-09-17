@@ -131,3 +131,7 @@ dmypy.json
 # files
 PROJECT-3. EDA + Feature Engineering. Соревнование на Kaggle/data/hotels.csv
 PROJECT-5. Задача регрессии\data\train.csv
+PROJECT-5. Задача регрессии\data\weather_data.csv
+PROJECT-5. Задача регрессии\data\Project5_test_data.csv
+PROJECT-5. Задача регрессии\data\Project5_osrm_data_test.csv
+PROJECT-5. Задача регрессии\data\holiday_data.csv
